@@ -1,16 +1,100 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+	<meta charset="utf-8" />
 <title> MechanicallyMinded.net </title>
-</head>
-
-<body>
 
 <img style="margin:0px auto;display:block" 
+alt="MechanicallyMinded.net"
 src="images/art/mm-line_white-300x100.png" />
 
 <h3>by: TheMadMechanic</h3>
+<h5>I deal with schemantics</h5>
 
+	<style>
+	
+		body	{ width:960px; padding:100px 0; margin:0 auto; font-family:Calibri, sans-serif; }
+		#nav{
+			border:1px solid #ccc;
+			border-width:1px 0;
+			list-style:none;
+			margin:0;
+			padding:0;
+			text-align:center;
+		}
+		#nav li{
+			position:relative;
+			display:inline;
+		}
+		#nav a{
+			display:inline-block;
+			padding:10px;
+		}
+		#nav ul{
+			position:absolute;
+			left:-9999px;
+			margin:0;
+			padding:0;
+			text-align:left;
+		}
+		#nav ul li{
+			display:block;
+		}
+		#nav li:hover ul{
+			left:0;
+		}
+		#nav li:hover a{
+			text-decoration:underline;
+			background:#FFFFFF;
+		}
+		#nav li:hover ul a{
+			text-decoration:none;
+			background:#FFFFFF;
+		}
+		#nav li:hover ul a:hover{
+			text-decoration:underline;
+			background:#FFFFFF;
+		}
+		#nav ul a{
+			white-space:nowrap;
+			display:block;
+			border-bottom:1px solid #ccc;
+		}
+		a{
+			color:#B0C4DE;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		a:hover{
+			text-decoration:underline;
+			background:#FFFFFF;
+		}
+		
+	</style>
+
+</head>
+	
+<body>
+
+	<ul id="nav">
+	
+		<li><a href="/">Home</a></li>
+		<li><a href="/the-law/">The Law</a></li>
+		<li><a href="/components/">Components</a></li>
+		<li><a href="/maintenance-101/">Maintenance 101</a></li>
+		<li><a href="/infographics/">Infographics</a></li>
+		<li>
+			<a href="/about/">About</a>
+		<ul>
+			<li><a href="/contact/">Contact</a></li>
+			<li><a href="/licenses/">Licenses</a></li>
+			<li><a href="/internography/">Internography</a></li>
+			<li><a href="/art/">Artwork of MechanicallyMinded</a></li>
+		</ul>
+	</li>
+
+	</ul>
 <p>
 Welcome,
     This site is here to provide a way for me to play with several of
